@@ -1,0 +1,22 @@
+<--!
+Adım 1: [22] (Başlangıçta ilk eleman zaten sıralı kabul edilir.)
+Adım 2: [16, 22] (27, 16 ile karşılaştırılır, 16 önceki eleman 22'den küçük olduğu için yer değiştirir.)
+Adım 3: [2, 16, 22] (2, 16 ile karşılaştırılır, 2 önceki eleman 16'dan küçük olduğu için ve sıralı konuma yerleştirilir.)
+Adım 4: [2, 16, 18, 22] (18, 22 ile karşılaştırılır, 18 önceki eleman 22'den küçük olduğu için ve sıralı konuma yerleştirilir.)
+Adım 5: [2, 6, 16, 18, 22, 27] (6, 27 ile karşılaştırılır, 6 önceki eleman 22'den küçük olduğu için ve sıralı konuma yerleştirilir.)
+
+Insertion Sort'un Big-O Gösterimi:
+Insertion Sort'un time complexity (zaman karmaşıklığı) Big-O notasyonunda 𝑂(𝑛2) şeklindedir. Bu, en kötü durumda 𝑛2 operasyon gerektiği anlamına gelir.
+
+Dizi Sıralandıktan Sonra 18 Sayısı Hangi Case'e Girer?
+Dizi sıralandıktan sonra 18 sayısı 'average case'e girer. Çünkü 18, aradığımız sayının dizinin ortasında (liste sıralı olduğunda), yani ortalamaya yakın bir konumda bulunmaktadır.
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Adım 1: [2, 3, 5, 8, 7, 9, 4, 15, 6] (Minimum eleman olan 2, ilk eleman olarak seçilir ve ilk sıradaki elemanla yer değiştirir.)
+Adım 2: [2, 3, 4, 8, 7, 9, 5, 15, 6] (Minimum eleman olan 4, 2. sıradaki elemanla yer değiştirir.)
+Adım 3: [2, 3, 4, 5, 7, 9, 8, 15, 6] (Minimum eleman olan 5, 3. sıradaki elemanla yer değiştirir.)
+Adım 4: [2, 3, 4, 5, 6, 9, 8, 15, 7] (Minimum eleman olan 6, 5. sıradaki elemanla yer değiştirir.)
+
+Bu adımlar, Selection Sort algoritmasının ilk 4 adımını göstermektedir. Bu adımlarda, dizinin sıralı kısmı adım adım büyümektedir.
+-->
